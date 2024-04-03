@@ -1,0 +1,33 @@
+.container {
+    height: 100%;
+    background: linear-gradient(0deg, rgba(12,130,90,1) 0%, rgba(122,255,122,1) 0%, rgba(17,175,116,1) 43%, rgba(12,130,90,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form {
+    width: 30rem;
+    margin: auto;
+    background: rgb(235,235,235);
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+
+}
+img {
+    height: 8rem;
+    width: 100%;
+    margin: 1.5rem auto 1.5rem auto;
+}
+
+.full-width {
+    width: 100%;
+}
+
+button {
+    margin-top: 0.5rem;
+}
