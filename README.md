@@ -1,4 +1,4 @@
- # Comandos de utilização no projeto:
+ # Comandos utilizados no projeto:
  - git init 
  - npm install -g @angular/cli@12.0.3 
  - ng new helpdesk --minimal
