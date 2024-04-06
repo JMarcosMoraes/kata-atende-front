@@ -9,6 +9,7 @@ import { AuthService } from '../services/auth.service';
 export class AuthGuard implements CanActivate {
 
   constructor(private authService: AuthService, private router: Router){}
+  
   canActivate(
     route: ActivatedRouteSnapshot,
     state: RouterStateSnapshot): boolean  {
@@ -16,7 +17,7 @@ export class AuthGuard implements CanActivate {
       if(authenticated) {
         return true; 
       } else {
-        this.router.navigate(['login']);
+        this.router.navigate(['tecnicos']);
         return false
       }
   }
