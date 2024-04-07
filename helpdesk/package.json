@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && ng serve ",
+    "publish": "set NODE_OPTIONS=--openssl-legacy-provider && ng build --prod",
     "build": "ng build",
     "watch": "ng build --watch --configuration development"
   },
@@ -20,7 +21,11 @@
     "@angular/platform-browser-dynamic": "~12.0.3",
     "@angular/router": "~12.0.3",
     "@auth0/angular-jwt": "^5.0.2",
+    "i": "^0.3.7",
     "ngx-toastr": "^14.3.0",
+    "npm": "^10.5.1",
+    "nvm": "^0.0.4",
+    "or": "^0.2.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.1.0",
     "zone.js": "~0.11.4"
